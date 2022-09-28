@@ -154,7 +154,10 @@ function completeToDo(event) {
   // DESCOMENTAR LA SIGUIENTE LINEA
   const index = event.target.id;
   // Tu código acá:
-
+  //1
+  toDoItems[index].completeToDo();
+  //2
+  displayToDos();
 }
 
 // Una vez que llegaste a este punto verificá que todos los tests pasen
