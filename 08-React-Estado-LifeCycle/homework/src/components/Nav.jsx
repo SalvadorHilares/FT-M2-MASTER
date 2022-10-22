@@ -5,7 +5,10 @@ import './Nav.css';
 
 function Nav({onSearch}) {
   return (
-    <div>Nav</div>
+    <div>
+      <img src={Logo} alt="logo"/>
+      <SearchBar onSearch={onSearch}/>
+    </div>
   );
 };
 
